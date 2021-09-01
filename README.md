@@ -97,7 +97,7 @@ If you followed the steps above, 2 default accounts will have been created.
 
 **JS** [/resources/js/app.js](resources/js/app.js)
 
-Changes made to these file need to compiled [Reference](https://laravel.com/docs/8.x/mix)
+Changes made to these files need to compiled [Reference](https://laravel.com/docs/8.x/mix)
 
 ```shell
 npm run dev
