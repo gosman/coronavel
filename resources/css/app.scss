@@ -1,0 +1,53 @@
+@import 'variables';
+
+/* === Pagination === */
+.page-link, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .jsgrid-pager-page a {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: $w;
+  background-color: $darkGrey;
+  border: 1px solid $base;
+  font-size: 14px;
+}
+
+.page-item.disabled .page-link, .jsgrid .jsgrid-pager .disabled.jsgrid-pager-nav-button .page-link, .jsgrid .jsgrid-pager .disabled.jsgrid-pager-page .page-link, .page-item.disabled .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item.disabled a, .jsgrid .jsgrid-pager .disabled.jsgrid-pager-nav-button a, .page-item.disabled .jsgrid .jsgrid-pager .jsgrid-pager-page a, .jsgrid .jsgrid-pager .jsgrid-pager-page .page-item.disabled a, .jsgrid .jsgrid-pager .disabled.jsgrid-pager-page a {
+  color: $w;
+  pointer-events: none;
+  cursor: auto;
+  background-color: $darkGrey;
+  border-color: $base;
+  font-size: 14px;
+}
+
+/* === SweetAlert === */
+.swal2-popup {
+  padding: 1.25em !important;
+  background: darken($darkGrey, 3%) !important;
+  color: $lightGrey !important;
+  box-shadow: 0 0 10px $lightGrey !important;
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: $base !important;
+}
+
+.swal2-styled.swal2-confirm:focus {
+  box-shadow: none !important;
+}
+
+.swal2-close {
+  text-align: right !important;
+  justify-content: right !important;
+  width: 100% !important;
+  margin-top: -10px !important;
+  margin-bottom: 0 !important;
+  font-size: 2em !important;
+}
+
+.swal2-close:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
